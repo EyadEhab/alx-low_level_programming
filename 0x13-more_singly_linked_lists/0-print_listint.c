@@ -8,14 +8,11 @@
  */
 size_t print_listint(const listint_t *h)
 {
-    size_t num_nodes = 0; /* Initialize the node count */
-
-    while (h)
-    {
-        printf("%d\n", h->data); /* Print the data of the current node */
-        num_nodes++;            /* Increment the node count */
-        h = h->next;            /* Move to the next node */
-    }
-
-    return (num_nodes); /* Return the total number of nodes */
+size_t num = 0;
+while (h)
+printf("%d\n", h->n);
+num++;
+h = h->next;
+}
+return (num);
 }
