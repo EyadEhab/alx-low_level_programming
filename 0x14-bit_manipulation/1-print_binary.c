@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_binary Print - Print decimal number in binary
+ * print_binary - Print decimal number in binary
  * @n: Unsigned long integer to be displayed in binary.
  */
 
