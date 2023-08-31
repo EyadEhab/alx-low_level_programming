@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * clear_bit - Sets the value of a specified bit to 0
  * @n: Pointer to the number to modify
  * @index: Index of the bit to clear

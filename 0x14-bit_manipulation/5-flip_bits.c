@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * flip_bits - Counts the number of bits to change
  * to transform one number into another
  * @n: First number
